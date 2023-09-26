@@ -10,3 +10,6 @@
 [submodule "dynamo-es"]
 	path = dynamo-es
 	url = git@github.com:serverlesstechnology/dynamo-es.git
+[submodule "eventstore-es"]
+	path = eventstore-es
+	url = git@github.com:serverlesstechnology/eventstore-es.git
