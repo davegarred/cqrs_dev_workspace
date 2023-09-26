@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = [
+    "cqrs",
+    "postgres-es",
+    "mysql-es",
+    "dynamo-es",
+]
+
+[patch.crates-io]
+cqrs-es = { path = "./cqrs" }
+postgres-es = { path = "./postgres-es" }
+mysql-es = { path = "./mysql-es" }
+dynamo-es = { path = "./dynamo-es" }
+
+[profile.release]
+debug = true

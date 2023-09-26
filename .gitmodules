@@ -1,0 +1,12 @@
+[submodule "cqrs"]
+	path = cqrs
+	url = git@github.com:serverlesstechnology/cqrs.git
+[submodule "postgres-es"]
+	path = postgres-es
+	url = git@github.com:serverlesstechnology/postgres-es.git
+[submodule "mysql-es"]
+	path = mysql-es
+	url = git@github.com:serverlesstechnology/mysql-es.git
+[submodule "dynamo-es"]
+	path = dynamo-es
+	url = git@github.com:serverlesstechnology/dynamo-es.git
